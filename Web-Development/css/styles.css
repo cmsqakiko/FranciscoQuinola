@@ -1,0 +1,177 @@
+
+
+/******************************* 
+THIS FIELD IS FOR THE HEADER
+*******************************/
+
+body{
+    margin: 0;
+    background-color: #dae8e2;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+}
+header {
+    height: 150px;
+    position: absolute;
+    top: 0;
+    transition: top 0.8s ease-in-out;
+    width: 100%;
+}
+.nav-up {
+    top: -150px;
+}
+.profile-pic{
+
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    background-color: #b2ede1;
+    display: inline-block;
+    padding: 0;
+    text-align: right;
+}
+
+.container1{
+    display: inline-block;
+    height: 150px;
+    width: 400px;
+    margin: 0;
+    
+}
+
+
+.myName{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 0 0;
+    text-align: right;
+}
+
+.container{
+    background-color:#dae8e2;
+    height: 150px;
+    width: auto;
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 75px 100px
+}
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;  
+    padding: 0 42px 0 0;
+    font-size: 20px;
+}
+.navbar-right{
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+    font-family: "Helvetica Neue", arial, sans-serif;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+.imageHolder{
+    margin: 0;
+    padding: 50px 100px 0 150px;
+}
+.meInfo, .meContact, .meBackground{
+    margin: 0;
+    padding: 0;
+    color: #50b38b;
+    font-family: 'Indie Flower', cursive;
+    font: 20px;
+}
+
+/******************************* 
+THIS FIELD IS FOR THE SECTION
+*******************************/
+
+.bugPics{
+    padding-top: 50px;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+}
+.cloudPic{
+    height: 150px;
+    width: 200px;
+}
+
+.container2{
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: #41705d;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+} 
+.myName1
+{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+}
+.myName2{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.cloudPic1, .cloudPic2{
+    position: absolute;
+}
+.myNameKiko{
+    margin: 0 auto;
+}
+.cloudPic1{
+    top: 100px;
+    left: 200px;
+}
+.cloudPic2{
+    right: 200px;
+}
+.bugMe{
+    margin: 50px 0 0 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #9cb4b5;
+}
+.section1{
+    height: 700px;
+    width: 100%;
+}
+.hello{
+    background-color: white;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #41705d;
+    text-align: center;
+
+}
+.bugPic{
+    width: auto;
+    margin: auto;
+}
+.information{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.col-md-12{
+    width: 100%;
+}
